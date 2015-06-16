@@ -58,7 +58,7 @@ def vcard_to_list(vcard_text):
     print lineslist[2]
 
 
-filename = 'taras.ivaniv.vcf'
+filename = 'test.vcf'
 file_pointer = open(filename, 'r')
 
 contents = file_pointer.read().splitlines(True)
